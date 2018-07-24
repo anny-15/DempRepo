@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.cox.Base.FunctionalClass_Actitime;
 import com.cox.pages.LoginPage;
 
-public class TC_001_Login_in_Time_portal {
+public class TC_001_Login_in_Time_portal extends FunctionalClass_Actitime{
 	
 	
 	
@@ -19,7 +19,7 @@ public class TC_001_Login_in_Time_portal {
 	public void Actitime_loginTitlepageTest()
 	{
 		System.out.println("login into page");
-		
+		lg.ActittimeTitleTest();
 		
 	}
 

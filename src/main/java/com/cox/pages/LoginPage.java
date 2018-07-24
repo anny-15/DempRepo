@@ -34,9 +34,8 @@ public class LoginPage extends FunctionalClass_Actitime {
 	}
 	public void ActittimeTitleTest()
 	{
-		username.sendKeys(prop.getProperty("username"));
-		password.sendKeys(prop.getProperty("password"));
-		login_button.click();
+		String title= driver.getTitle();
+		System.out.println(title);
 		
 	}
 	 
