@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity" parallel="classes" thread-count="2">
+	<test name="TC002_B01645_PSC_Successful_authentication_1348456">
+		<!--packages> <package name="testscripts.ConfigurationPage"></package> 
+			</packages -->
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testscripts.PSC_Authendication.TC002_B01645_PSC_Successful_authentication_1348456" />
+			<!-- <class name="testscripts.WelcomePage.TC002_B14251_Verify_InlineErrorMessages_WelcomePage_1555815" /> -->
+		</classes>
+		
+	</test>
+	<test name="TC002_B14251_Verify_InlineErrorMessages_WelcomePage_1555815">
+		<!--packages> <package name="testscripts.ConfigurationPage"></package> 
+			</packages -->
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testscripts.WelcomePage.TC002_B14251_Verify_InlineErrorMessages_WelcomePage_1555815" />
+		</classes>
+</test>
+</suite>		
